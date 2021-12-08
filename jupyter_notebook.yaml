@@ -5,8 +5,8 @@ metadata:
   labels:
     release: jupyter
 ---
-apiVersion: rbac.authorization.k8s.io/v1
-kind: Role
+apiVersion: apps/v1
+kind: Deployment
 metadata:
   name: jupyter
   labels:
