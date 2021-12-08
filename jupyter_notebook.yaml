@@ -11,7 +11,7 @@ metadata:
   name: jupyter
   labels:
     release: jupyter
-  namespace: spark
+  namespace: project1
 rules:
 - apiGroups:
   - ""
